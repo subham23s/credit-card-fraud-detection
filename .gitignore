@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Kaggle dataset cache (VERY IMPORTANT)
+.kaggle/
+*.kaggle
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (if you add later)
+*.pkl
+*.joblib
+
+# Generated plots/images (optional: remove if you want to keep them)
+eda_plots.png
+roc_curve.png
+feature_importance.png
+confusion_matrix.png
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
